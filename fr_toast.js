@@ -10,9 +10,9 @@
 			icon: '',
 			title: '',
 			context: '',
-            bgColor: '#000000',
-            fontColor: '#FFFFFF',
-            position: 'center',
+			bgColor: '#000000',
+			fontColor: '#FFFFFF',
+			position: 'center',
 			init: function() {},
 			before: function() {},
 			after: function() {},
@@ -44,7 +44,8 @@
         //init
 		_settings.init.call(this);
         
-        $toastView.find('.fr_toast_zone').attr('id', id);
+        //$toastView.find('.fr_toast_zone').attr('id', id);
+        $('.fr_toast_zone', $toastView).attr('id', id);//defferent way to find the specified sub-element, same result as above.
         
         $toastView.find('.fr_toast_icon').addClass(_settings.icon);
         $toastView.find('.fr_toast_text_title').text(_settings.title);
@@ -66,7 +67,7 @@
         .fadeIn()
         .delay(3000)
         .fadeOut('slow', function() {
-        	//success
+			//success
 			_settings.finish.call(this,_settings);
             
         	$(this).remove();
@@ -121,7 +122,7 @@
         }
         
         if (!userDefine) {
-        	$toastView.find('.fr_toast_zone').addClass('color', 'center');
+        	$toastView.find('.fr_toast_zone').addClass('fr_toast_center');
         }
     }
 	
