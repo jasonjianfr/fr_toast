@@ -1,7 +1,7 @@
 /*
  * jQuery Plugin Research
  * Team Members: Jason, Raul, Joe, Caspar, Tim, Leon, Hank, Jared
- * ver 1.0.0
+ * ver 1.0.2
  * License: WTFPL
 */
 (function( $ ){
