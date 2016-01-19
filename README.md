@@ -46,7 +46,7 @@ It provides manay parameters below:
 
 https://jsfiddle.net/pilisir/7Lcs2s3o/15/
 
-License
+### License
 ----
 
 WTFPL
