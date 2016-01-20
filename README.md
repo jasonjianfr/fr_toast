@@ -8,6 +8,9 @@ This product is made for a practice of jQuery plugin research, so it will no lon
 
 HAVE FUN!
 
+### Supported Browsers
+latest Chrome only!
+
 ### Version
 1.0.2
 
